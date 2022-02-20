@@ -1,0 +1,512 @@
+body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.header-menu-button a {
+    color: #fff;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    box-sizing: border-box;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+span {
+    display: inline-block;
+    white-space: nowrap;
+    
+}
+
+*::before {
+    word-break: break-all;
+    box-sizing: border-box;
+}
+*::after {
+    word-break: break-all;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+.header {
+    width: 100%;
+    position :absolute;
+    padding: 20px 0px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px 0 36px;
+    max-width: 100%;
+    position: relative;
+}
+
+.header-logo {
+    transition: opacity 0.2s;
+}
+
+.header-logo-image {
+    display: block;
+    height:  20px;
+    width: auto;
+}
+
+.header-logo-image-sp {
+    display: none;
+    height:  16px;
+    width: auto;
+}
+
+.header-navi {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.header-navi-hamburger {
+    display: none;
+
+}
+
+.header-menu-list {
+   align-items: center; 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-menu-item {
+    display: block;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    margin-right: 45px;
+}
+
+.header-menu-item span {
+    font-weight: 700;
+}
+
+.header-menu-item span:first-child{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.header-menu-item span:last-child{
+    font-size: 10px;
+}
+
+.header-menu-button {
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    height: 40px;
+    padding: 0 20px;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+
+
+.header-menu-button :hover {
+    opacity: 0.8;
+}
+
+
+
+.FirstView-box {
+    width: fit-content;
+}
+
+.FirstView-container {
+    max-width: 1140px;
+    width: fit-content;
+    margin-bottom: 70px;
+    padding: 0 50px;
+    box-sizing: border-box;    
+    margin:auto;
+}
+
+.FirstView {
+    padding: 100px 0 28px 0;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.FirstView-title h2 {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.FirstView-main-image {
+    display: none;
+    width: 100%;
+}
+
+.FirstView-images {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.FirstView-buttons {
+    display: flex;
+}
+
+.FirstView-counseling {
+    display: flex;
+    background-color: #F79214;
+    align-items: center;
+    color: #fff;
+    border-radius: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 306px;
+    height: 64px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.FirstView-download {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 38px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 306px;
+    height: 64px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    width: 176px;
+}
+
+.FirstView-captions {
+    color: #a2a2a4;
+    font-size: 12px;
+}
+
+.FirstView-captions p{
+    line-height: 1.5;
+    margin-top: 70px;
+}
+
+.About {
+    background-color: #F79214;
+    padding: 45px 0;
+}
+
+.About-wrapper{
+    display: flex;
+    color: #fff;
+    max-width: 1040px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.About-wrapper-title {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+
+}
+
+.About-wrapper h2 span{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.About-wrapper h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.About-wrapper-title br {
+    display: none;
+}
+
+.About-wrapper p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.About-button {
+    width: 250px;
+}
+
+.About-button a {
+    background-color: #fff;
+    color: #F79214;
+    font-size: 16px;
+    background-color: #fff;
+    font-weight: 700;
+    height: 64px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 38px;
+
+}
+
+.About-button span:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-family: 'Lato', sans-serif;
+} 
+
+.About-button span:last-child {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+@media screen and (max-width:1080px){
+.header-navi-hamburger {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 21px;
+        z-index: 100;
+}
+    
+.header-navi-hamburger-line {
+        position: absolute;
+        top: 50%;
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        border-radius: 10px;
+}
+
+.header-navi-hamburger-line:first-child{
+    top:0;
+}
+
+.header-navi-hamburger-line:last-child{
+    top: 100%;
+}
+
+.header-menu-list {
+    overflow-y: scroll;
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    transition: transform 0.5s;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+}
+
+@media screen and (max-width:1024px){
+
+    .About-wrapper{
+        flex-direction: column;
+        max-width: none;
+        padding: 0 20px;
+    }
+    
+    .About-wrapper-title {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .About-button {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width:767px){
+    main {
+            padding-top: 52px;
+    }
+    
+    .header {
+        padding: 15px 0;
+    }
+    
+    .header-logo-image {
+        display: none;
+    }
+    
+    .header-logo-image-sp {
+        display: block;
+    }
+    
+    .FirstView-main-image {
+        display: block;
+    }
+        
+    .FirstView {
+        background-image: none;
+        padding-bottom: 35px;
+        padding-top: 0px
+    }
+        
+    .FirstView-content {
+        width: 100%;
+    }
+    
+    .FirstView-container {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-top: -45vw;
+        padding: 0 20px;
+        max-width: none;
+    }
+    
+    .FirstView-title{
+        margin-left: calc(((100vw - 100%) / 2) * -1);
+        margin-right: calc(((100vw - 100%) / 2) * -1);
+        text-align: center;
+    }
+    
+    .FirstView-title h2 {
+        margin-left: calc(((100vw - 100%) / 2) * -1);
+        margin-right: calc(((100vw - 100%) / 2) * -1);
+        font-size: 25px;
+        line-height: 36px;
+    }
+    
+    .FirstView-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .FirstView-buttons a {
+        font-size: 14px;
+        width: 100% !important;
+    }
+
+    .FirstView-counseling {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .FirstView-download {
+        width: 100%;
+    }
+
+    .FirstView-box {
+        width: 100%;
+    }
+
+    .FirstView-images {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .FirstView-images img {
+        width: 27.5%;
+    }
+
+    .FirstView-images img:nth-of-type(2) {
+        width: 40%;
+    }
+
+    .FirstView-captions p {
+        margin-top: 20px;
+    }
+
+    .About-wrapper-title h2 {
+        font-size: 33px !important;
+        text-align: center;
+    }
+
+    .About-wrapper-title span{
+        font-size: 33px !important;
+    }
+
+    .About-wrapper-title br {
+        display: block;
+    }
+
+    .About__button a {
+        transition: opacity 0.2s;
+
+    }
+
+}
+
+
+        
+}
+    
+    
